@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 820d9d4fc9510ed488561b125527c7e7, type: 3}
+  m_Name: TheLast
+  m_EditorClassIdentifier: Assembly-CSharp::CelestialAscent.Card
+  title: The Last
+  description: The last thing you will ever behold. *Canis Major*
+  cost: 7
+  attack: 9
+  health: 9
+  damageType: 0
+  cardType: 0
+  keywords: 0200000001000000
+  rarity: 3
+  sprite: {fileID: -5859895209451254939, guid: 5a8d34d6dd774894492f365e7fa59246, type: 3}
+  boardPrefab: {fileID: 3813424381798723933, guid: 55792d991ba00024ea43991ab63b75fe, type: 3}

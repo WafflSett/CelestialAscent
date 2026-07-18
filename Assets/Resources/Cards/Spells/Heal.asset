@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 820d9d4fc9510ed488561b125527c7e7, type: 3}
+  m_Name: Heal
+  m_EditorClassIdentifier: Assembly-CSharp::CelestialAscent.Card
+  title: Warming Light
+  description: The light of the sun pierces the darkest of skies!
+  cost: 1
+  attack: 0
+  health: 1
+  damageType: 1
+  cardType: 1
+  keywords: 
+  rarity: 0
+  sprite: {fileID: -7959028148241286334, guid: 753a7e83d012ea346b43fe85c707b63d, type: 3}
