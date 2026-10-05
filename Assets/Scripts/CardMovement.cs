@@ -35,7 +35,7 @@ public class CardMovement : MonoBehaviour, IDragHandler, IPointerDownHandler, IP
 
     void Awake()
     {
-        gridManager = FindFirstObjectByType<GridManager>();
+        gridManager = FindAnyObjectByType<GridManager>();
         rectTransform = GetComponent<RectTransform>();
         canvas = GetComponentInParent<Canvas>();
         if (canvas != null)
@@ -201,7 +201,7 @@ public class CardMovement : MonoBehaviour, IDragHandler, IPointerDownHandler, IP
                 case (CardType.Unit):
                     if (gridManager.AddObjectToGrid(cardData.boardPrefab, targetPos))
                     {
-                        HandManager handmanager = FindFirstObjectByType<HandManager>();
+                        HandManager handmanager = FindAnyObjectByType<HandManager>();
                         handmanager.cardsInHand.Remove(gameObject);
                         handmanager.UpdateHandVisuals();
                         Destroy(gameObject);

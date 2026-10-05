@@ -8,6 +8,7 @@ public class GridManager : MonoBehaviour
     public int height = 4;
     public GameObject gridCellPrefab;
     public List<GameObject> gridObjects = new List<GameObject>();
+    [NonSerialized]
     public GameObject[,] gridCells;
 
     private void Start()
